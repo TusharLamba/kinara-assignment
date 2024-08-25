@@ -29,4 +29,6 @@ USAGE
 
 # Setting up DB
 
-1) Run migration file in backend/db/migration.sql in pgAdmin
+1) Create DB server with configuration(user, pass, port) as defined in backend/db/dbPool.js in pgAdmin
+2) Run migration file in backend/db/migration.sql in pgAdmin or via psql cmd line
+
